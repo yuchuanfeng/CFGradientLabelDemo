@@ -14,6 +14,7 @@
 		F896EBC21B663D6C00CD4BC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F896EBC11B663D6C00CD4BC3 /* Images.xcassets */; };
 		F896EBC51B663D6C00CD4BC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F896EBC31B663D6C00CD4BC3 /* LaunchScreen.xib */; };
 		F896EBD11B663D6C00CD4BC3 /* CFGradientLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F896EBD01B663D6C00CD4BC3 /* CFGradientLabelDemoTests.m */; };
+		F896EBDC1B67251400CD4BC3 /* CFGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F896EBDB1B67251400CD4BC3 /* CFGradientLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F896EBCA1B663D6C00CD4BC3 /* CFGradientLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFGradientLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F896EBCF1B663D6C00CD4BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F896EBD01B663D6C00CD4BC3 /* CFGradientLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFGradientLabelDemoTests.m; sourceTree = "<group>"; };
+		F896EBDA1B67251400CD4BC3 /* CFGradientLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFGradientLabel.h; sourceTree = "<group>"; };
+		F896EBDB1B67251400CD4BC3 /* CFGradientLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFGradientLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				F896EBB91B663D6C00CD4BC3 /* AppDelegate.m */,
 				F896EBBB1B663D6C00CD4BC3 /* ViewController.h */,
 				F896EBBC1B663D6C00CD4BC3 /* ViewController.m */,
+				F896EBDA1B67251400CD4BC3 /* CFGradientLabel.h */,
+				F896EBDB1B67251400CD4BC3 /* CFGradientLabel.m */,
 				F896EBBE1B663D6C00CD4BC3 /* Main.storyboard */,
 				F896EBC11B663D6C00CD4BC3 /* Images.xcassets */,
 				F896EBC31B663D6C00CD4BC3 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				F896EBBD1B663D6C00CD4BC3 /* ViewController.m in Sources */,
 				F896EBBA1B663D6C00CD4BC3 /* AppDelegate.m in Sources */,
+				F896EBDC1B67251400CD4BC3 /* CFGradientLabel.m in Sources */,
 				F896EBB71B663D6C00CD4BC3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				F896EBD61B663D6C00CD4BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F896EBD71B663D6C00CD4BC3 /* Build configuration list for PBXNativeTarget "CFGradientLabelDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				F896EBD91B663D6C00CD4BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
