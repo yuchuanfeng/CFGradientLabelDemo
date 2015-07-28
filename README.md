@@ -18,7 +18,7 @@
 
       [self.text drawWithRect:rect options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : self.font} context:NULL];
 
-###　　　　2)_ 设置mask : CGContextClipToMask(context, rect, alphaMask); 并清除文字
+###　　　2)_ 设置mask : CGContextClipToMask(context, rect, alphaMask); 并清除文字
 
     CGContextTranslateCTM(context, 0.0f, rect.size.height- (rect.size.height - textSize.height)*0.5);
 
